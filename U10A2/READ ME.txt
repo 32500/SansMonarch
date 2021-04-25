@@ -1,0 +1,9 @@
+Date: 16th February 2021
+
+Features that I need for my School Website:
+
+>The site must contain information about the school.
+>The site must have a seperate portal for Teachers and Parents.
+>The portal must provide information about upcomming school events and "resources" for these events
+ (maybe some teach from home or parent teaching resources thing?)
+>The portal section must be customisable for the user.... for some reason.
