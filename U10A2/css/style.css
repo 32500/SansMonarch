@@ -1,0 +1,193 @@
+.body {
+	background-color:lightslategrey;
+	font-family:sans-serif;
+}
+/*This section styles the website logo and school name for the header of the page*/
+h1.schoolName {
+	background-color:royalblue;
+	color:white;
+	font-family:serif;
+	font-size:4em;
+	padding-top:80px;
+	padding-bottom:10px;
+}
+img.logo {
+	display:block;
+	height:144px;
+	width:144px;
+	background-color:royalblue;
+	float:left;
+}
+/*End of headder styling*/
+/*This section styles the tables for the navigation bar*/
+tr.navbar {
+	height:80;
+	width:200;
+}
+
+td.navbar {
+	vertical-align:middle;
+	height:80px;
+	width:200px;
+	text-align:center;
+}
+/*End of navigation bar styling*/
+/* Start of CSS that styles links */
+a:link {
+	color:whitesmoke;
+	font-size:1.4em;
+}
+
+a:visited {
+	color:whitesmoke;
+}
+
+a:hover {
+	color:lightskyblue;
+}
+
+a:active {
+	color:blue;
+}
+/* End of CSS that styles links */
+.home_content {
+	font-family:sans-serif;
+	background-color:lightskyblue;
+	height:100%;
+	width:70%;
+	border:1px, black;
+	padding:2%;
+	margin:5%;
+	margin-bottom:15%;
+	margin-left:15%;
+	text-align:left;
+	font-size:1.2em;	
+}
+.content {
+	font-family:sans-serif;
+	background-color:lightskyblue;
+	height:100%;
+	width:70%;
+	border:1px, black;
+	padding:10%;
+	padding-top:5%;
+	padding-bottom:10%;
+	margin:5%;
+	text-align:left;
+	font-size:1.2em;
+}
+.contact_info /*This code is for possitioning the contact information on the contact us page*/ {
+	font-family:sans-serif;
+	background-color:lightskyblue;
+	height:100%;
+	width:20%;
+	border:1px, black;
+	padding:2%;
+	margin:5%;
+	margin-left:15%;
+	text-align:left;
+	font-size:1.2em;
+}
+.map /*This code possitions the map of the school on the contact page*/ {
+	float:right;
+	border:1px, black;
+	margin:10%;
+}
+.building {
+	background-image:url(../images/building.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin:0%;
+}
+/*The info class is for the meet the team
+page, it will format the information on the teachers*/
+.team_info {
+	font-family:sans-serif;
+	background-color:lightskyblue;
+	height:100%;
+	width:90%;
+	border:1px, black;
+	padding:2%;
+	padding-bottom:10%;
+	margin-left:3%;
+	margin-right:3%;
+	}
+
+.left_image {
+	float:left;
+	margin-top:1%;
+	margin-right:0.5%;
+	/*This image is slightly higher than the others, remember to fix that
+	FIXED, but leaving a note to remind me to talk about it*/
+}
+.center_image {
+	display:inline-block;
+	margin-left:25%;
+}
+.center_info {
+	display:inline-block;
+	margin:0 auto;
+	font-size:1.2em;
+}
+
+.login {
+	font-family:sans-serif;
+	text-align: center;
+	background-color:lightskyblue;
+	height:100%;
+	width:40%;
+	border:1px, black;
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:2%;
+	margin-bottom:2%;
+	padding:2%;
+	
+}
+.row2_left_image {
+	
+}
+
+/*This Css styles the page footer.
+There is additional inline css for the links on the html
+as inline css overides the existing css class for links*/
+.footer {
+	padding-bottom:0%;
+	background-color:royalblue;
+}
+
+.left_footer {
+	float:left;
+}
+
+.center_footer {
+	display:inline-block;
+	margin: 0 auto;
+}
+/*This is the end of the footer css.
+There is no right footer, as center footer works to
+allign the relevant collumn to the right.*/
+
+/*This below code is for styling the userimage on the login homepage*/
+.user_image {
+	
+	
+}
+/*Start of CSS code that formats the timetable*/
+.timetable {
+	font-family:sans-serif;
+	background-color:lightslategrey;
+	height:100%;
+	width:100%;
+	border:1px, black;
+	border:1px solid black;
+	margin-bottom:3%;
+}
+.timecell {
+	border:1px solid black;
+	text-align:center;
+	vertical-align:top;
+}
+/*End of code that formats the timetable*/

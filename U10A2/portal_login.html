@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content-"INSERT SITE DESCTIPTION HERE">
+		<title>Log In</title>
+		<link rel="stylesheet" href="css/style.css"
+	</head>
+	<body class="body">
+		<header>			
+			<img  src="images/school-logo.png" class="logo"/>
+			<h1 class="schoolName">Sans-Monarch Primary School</h1>
+			<nav>				
+				<table border="2px" width="100%">
+					<tr class="navbar">
+						<td class="navbar"><a href="index.html">Home</a></td>
+						<td class="navbar"><a href="about.html">About Us</a></td>
+						<td class="navbar"><a href="contact.html">Contact Us</a></td>
+						<td class="navbar"><a href="meet_team.html">Meet The Team</a></td>
+						<td class="navbar"><a href="useful_info.html">Useful Information/Links</a></td>
+						<td class="navbar"><a href="promotional.html">News</a></td>
+						<td class="navbar"><a href="portal_login.html">Log In</a></td>
+					</tr>
+				</table>				
+			</nav>
+		</header>
+		<main class="login">
+			<!-- This code creates a login form -->
+			<form>
+				<label for="username">User Name: </label>
+				<input type="text" id="username" name="username"></br>
+				<p><!-- This P tag is an easy way of spacing out the two boxes --></p>
+				<label for="password">Password: </label>
+				<input type="password" id="password" name="password"></br>
+				<p><!-- Again, this P tag is just here for easy spacing --></p>
+				<a href="portal/portal_home.html" style="font-size:0.8em; color:black; padding:1%; background-color:white; border:3px; border-color:black;" >Login</a>
+				<!-- The code below is a login button that didn't connect to annything, so I've replaced it with a link for now. -->
+				<!--<a href="portal/portal_home.html"><input type="submit" value="Log In"></a></br> -->
+				<!-- I need to get the login button to take me to the portal site but I can't get that set up right now, make sure to fix this later
+					I'll try to make it a text box instead of a login button -->
+			</form>
+			<!-- End of Login Form -->
+			<div>
+				<p></p>
+				<p>This log in is for teachers and parents of students of Sans Monarch Primary School only.</p>
+				<p>If you would like to create an account, please contact us at <u>example.signup@sansmonacrch.com</u> or 01656 XXX XXX for more details.</p>
+			</div>
+		</main>
+		<!-- This is the start of the footer.
+			this code is a footer navigation bar with less styling than the top navigation bar, any additional links will be added here-->
+		<footer class="footer">
+			<div class="left_footer">
+				<ul>
+					<li><a href="index.html" style="color:black; font-size:1em;">Home</a></li>
+					<li><a href="about.html" style="color:black; font-size:1em;">About Us</a></li>
+					<li><a href="contact.html" style="color:black; font-size:1em;">Contact Us</a></li>
+				</ul>
+			</div>	
+			<div class="center_footer">
+				<ul>
+					<li><a href="meet_team.html" style="color:black; font-size:1em;">Meet The Team</a></li>
+					<li><a href="useful_info.html" style="color:black; font-size:1em;">Useful Information/Links</a></li>
+					<li><a href="promotional.html" style="color:black; font-size:1em;">News</a></li>
+				</ul>
+			</div>
+			<div class="center_footer">
+				<ul>
+					<li><a href="portal_login.html" style="color:black; font-size:1em;">Log In</li></a>
+				</ul>
+			</div>
+			<!-- This is a hidden link to the portal page, if I can't get a login system in place
+			I'll just use this as a sample thing
+			
+			<div class="center_footer">
+				<p><a href="portal/portal_home.html" style="color:royalblue;">Click here!</a></p>
+			</div>
+			<!-- End of temp login button -->
+		</footer>
+		<!-- This is the end of the footer. -->
+	</body>
+</html>
